@@ -1,0 +1,3 @@
+<% articles.forEach(article => { %>
+  <div><%= article.title%><a href="/update/<%= article.id %>">編輯</a><a href="/delete/<%= article.id %>">刪除</a></div>
+<% }) %>
